@@ -144,7 +144,7 @@ public class MainActivity extends AppCompatActivity {
                 process();
                 Toast.makeText(this, R.string.ignore_success, Toast.LENGTH_SHORT).show();
                 return true;
-            default: 
+            default:
                 return super.onContextItemSelected(item);
         }
     }
